@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="first">
+  <form id="signup-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password"><br>
+    <input type="button" value="Submit" onclick="validateSignup()">
+  </form>
+  <p id="error-message" style="color:rgb(0, 72, 255)"></p>
+  <script src="signup.js"></script>
+</body>
+</html>

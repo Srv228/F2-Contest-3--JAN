@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT</title>
+</head>
+<body>
+  <form>
+    <label for="question">Question:</label>
+    <input type="text" id="question" name="question"><br>
+    <input type="button" value="Submit" onclick="getAnswer()">
+    
+      </form>
+      <div id="answer"></div>
+      <div id="token-section" style="display:none">
+        <form>
+          <label for="token">Token:</label>
+          <input type="text" id="token" name="token"><br>
+          <input type="button" value="Speak Text" onclick="verifyToken()">
+        </form>
+        <p id="token-message" style="color:rgb(197, 54, 151)"></p>
+      </div>
+      <script src="/F2 Contest 3- JANUARY/chatgpt.js"></script>
+    </body>
+    </html>
